@@ -1,0 +1,297 @@
+{
+    "title": "Communicating Science for Policy",
+    "subtitle": "COVID-19 and the Summer Festival",
+    "scenario": {
+        "title": "COVID-19 and the Summer Festival",
+        "description": "This scenario is set in a mid-sized U.S. city during a period of rising COVID-19 case numbers.",
+        "context": "You will play the role of a public health scientist at a private university. You have managed to secure a short one-on-one meeting with the city's Mayor, who must decide whether to move forward with the city's large annual summer festival.",
+        "goal": "Your goal is to communicate the latest COVID-19-related evidence, navigate policy tensions, and support informed decision-making."
+    },
+    "randomizeQuestions": false,
+    "randomizeOptions": true,
+    "competencies": [
+        {
+            "id": "support_decision_making",
+            "name": "Supporting Informed Decision-Making",
+            "color": "#28a745"
+        },
+        {
+            "id": "covid_evidence",
+            "name": "Communicating COVID-19-Related Evidence",
+            "color": "#007bff"
+        },
+        {
+            "id": "navigate_tensions",
+            "name": "Navigating Policy Tensions",
+            "color": "#ffc107"
+        }
+    ],
+    "questions": [
+        {
+            "id": 1,
+            "competency": "support_decision_making",
+            "type": "decision",
+            "title": "PREPARING FOR THE MEETING",
+            "context": "Your meeting with the Mayor is fast approaching and you have only a day left to prepare for the meeting.",
+            "question": "How much research should you do on the Mayor's policy stance, recent statements, news coverage, and other key actors before the meeting?",
+            "instruction": "Select the best response.",
+            "options": [
+                {
+                    "id": "1a",
+                    "text": "You do as much background policy research as possible within the limited time and reach out to a neighbor who works for the city and has met the Mayor. While this took some time, it was important to understand the decision-maker's context, which helped you define your strategy.",
+                    "type": "optimal",
+                    "points": 10
+                },
+                {
+                    "id": "1b",
+                    "text": "Since there's limited time, you decide to review the most recent academic literature on COVID-19 transmission to make sure that you haven't missed any updates. You use this information to define your strategy.",
+                    "type": "sub-optimal",
+                    "points": 7
+                },
+                {
+                    "id": "1c",
+                    "text": "You do not do much of a research since you are a scientist. Your only job is to present the scientific evidence as is and let the Mayor decide on the policy.",
+                    "type": "non-optimal",
+                    "points": -4
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "competency": "support_decision_making",
+            "type": "decision",
+            "title": "OPENING THE CONVERSATION",
+            "context": "You arrive at the meeting with the Mayor. After initial introductions, clarifying your role, and explaining which organization you represent, you learn that he has only 15 minutes to talk to you.",
+            "question": "Do you jump into the science right away, or take time to build rapport and find common ground first?",
+            "instruction": "Select the best response.",
+            "options": [
+                {
+                    "id": "2a",
+                    "text": "You try to build a rapport by appreciating how the summer festival has promoted the city's cultural traditions and helped boost the city's economy. You also and share a childhood memory of attending the summer festival. You also praise the Mayor for his promise to keep the COVID-19 hospitalizations down.",
+                    "type": "optimal",
+                    "points": 10
+                },
+                {
+                    "id": "2b",
+                    "text": "You start off by praising the Mayor for his promise to keep the COVID-19 hospitalizations down and assure him that you will provide him all the scientific evidence required to achieve his goals.",
+                    "type": "sub-optimal",
+                    "points": 7
+                },
+                {
+                    "id": "2c",
+                    "text": "Since the Mayor has limited time, you directly jump into the evidence and start to present scientific data. You do not want to waste time on small talk as that does not serve a purpose for communicating evidence.",
+                    "type": "non-optimal",
+                    "points": -4
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "competency": "covid_evidence",
+            "type": "decision",
+            "title": "FRAMING THE EVIDENCE",
+            "context": "As you progress with the meeting, you learn more about the Mayor’s values and vision. It’s time to present your scientific evidence now.",
+            "question": "Do you present the health risk data as-is, or align your message with the Mayor’s values?",
+            "instruction": "Select the best response.",
+            "options": [
+                {
+                    "id": "3a",
+                    "text": "You present the health risk data including which precautions can help reduce the risk of outbreaks at the upcoming event. You also touch on the scientific methods used to produce the evidence, how it was peer reviewed, and who was involved in producing the evidence. ",
+                    "type": "optimal",
+                    "points": 10
+                },
+                {
+                    "id": "3b",
+                    "text": "You present the health risk data including which precautions can help reduce the risk of outbreaks at the upcoming event. However, you do not go into further details on the research methods as they may be too technical for the Mayor to understand.",
+                    "type": "sub-optimal",
+                    "points": 7
+                },
+                {
+                    "id": "3c",
+                    "text": "You present the health risk data that shows how mass gatherings such as the summer festival increase the risk of COVID-19 outbreaks. You also cite data from recent public events without precautionary measures to demonstrate how easily outbreaks occur.",
+                    "type": "non-optimal",
+                    "points": -4
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "competency": "support_decision_making",
+            "type": "decision",
+            "title": "COMMUNICATING UNCERTAINTY",
+            "context": "The Mayor is grateful to have high-quality evidence available to decide whether or not to go through with the summer festival and what precautions would help limit the spread of COVID-19. However, he wants to be cautious and inquires about any remaining uncertainties and possible risks.​",
+            "question": "How do you explain projections, risks, and unknowns?",
+            "instruction": "Select the best response.",
+            "options": [
+                {
+                    "id": "4a",
+                    "text": "You acknowledge that some uncertainty remains because your data is based on early trends. However, you also explain in plain language that evidence shows which precautionary measures significantly reduce the risk of outbreaks. You also provide a range of projections and best practices citing evidence from similar events elsewhere. ",
+                    "type": "optimal",
+                    "points": 10
+                },
+                {
+                    "id": "4b",
+                    "text": "You confirm that you are confident in your data and that it has been peer-reviewed. You explain in plain language that evidence shows which precautionary measures significantly reduce the risk of outbreaks. You also provide a range of projections and best practices citing evidence from similar events elsewhere. ",
+                    "type": "sub-optimal",
+                    "points": 7
+                },
+                {
+                    "id": "4c",
+                    "text": "You explain the uncertainty using the correct scientific terms and data. You discuss the scientific theories behind the evidence and caution the Mayor about the possibility of an outbreak. You conclude by saying that there are possible risks and unknowns but don't specify further.",
+                    "type": "non-optimal",
+                    "points": -4
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "competency": "navigate_tensions",
+            "type": "decision",
+            "title": "MAKING A RECOMMENDATION",
+            "context": "<p>Once you are done discussing the evidence, the Mayor asks for specific recommendations to guide his policy decision.</p><p> You checked your university's policies on lobbying before coming to the meeting. They state, \"non-partisan analysis, study, or research may advocate a particular position or viewpoint as long as there is a sufficiently full and fair exposition of the pertinent facts to enable the individual to form an independent opinion or conclusion.</p>",
+            "question": "Do you advocate for a specific policy action, or offer to provide pros and cons for each of the options based on the available evidence?",
+            "instruction": "Select the best response.",
+            "options": [
+                {
+                    "id": "5a",
+                    "text": "You offer multiple evidence-based options for holding the event illustrating the pros and cons of each, with a firm recommendation to the Mayor for which actions to take.",
+                    "type": "optimal",
+                    "points": 10
+                },
+                {
+                    "id": "5b",
+                    "text": "You offer multiple evidence-based options for holding the event, but you do not make a specific recommendation. You offer to provide additional evidence for each of the options at a later time.",
+                    "type": "sub-optimal",
+                    "points": 7
+                },
+                {
+                    "id": "5c",
+                    "text": "You recommend not going ahead with the event because mass gatherings always bring the risk of an outbreak.",
+                    "type": "non-optimal",
+                    "points": -4
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "competency": "support_decision_making",
+            "type": "decision",
+            "title": "ENDING AND FOLLOW-UP",
+            "context": "You are almost at the end of the meeting when the Mayor asks if you could summarize the evidence for him.",
+            "question": "How would you summarize the discussion?",
+            "instruction": "Select the best response.",
+            "options": [
+                {
+                    "id": "6a",
+                    "text": "You summarize the evidence and provide a one-pager highlighting the key points. You also exchange business cards and ask him to reach out to you if he has any questions.",
+                    "type": "optimal",
+                    "points": 10
+                },
+                {
+                    "id": "6b",
+                    "text": "You summarize the evidence and offer to send out a one-pager highlighting the key points in a day or two. You also exchange business cards and ask him to reach out to you if he has any questions.",
+                    "type": "sub-optimal",
+                    "points": 7
+                },
+                {
+                    "id": "6c",
+                    "text": "You summarize the evidence discussed, but do not offer any documentation. However, you thank the Mayor for his time and ask him to reach out to you if he has any questions. ",
+                    "type": "non-optimal",
+                    "points": -4
+                }
+            ]
+        }
+    ],
+    "outcomes": {
+        "1a": {
+            "type": "optimal",
+            "title": "Excellent approach!",
+            "message": "<p>Your find out valuable information through your research. You learn that the Mayor is a strong supporter of the city’s cultural tradition. He has promised a few months back that this year’s event will be a larger than usual celebration of the city's 150th anniversary and his second re-election as the Mayor. He is also under pressure from the local business association, who have already invested heavily in the upcoming festival. A cancelation at this stage would result in significant economic losses for the city.</p><p> ​However, in a recent statement, the Mayor also promised the community members to keep the city’s COVID-19 hospitalizations lower than in any other city in the state. In speeches, he has said he's a level-headed man open to ideas and doesn't appreciate when people come to his office using only technical jargon. Your neighbor who knows the Mayor also informs you that he can be stubborn in some cases if he does not see value in your suggestions.</p><p>​All of these are valuable insights that will help you in formulating your communication strategy.</p>"
+        },
+        "1b": {
+            "type": "sub-optimal",
+            "title": "Good choice, but not the best.",
+            "message": "<p>While it is important to make sure that you are up to date on the most recent research advances in COVID-19, it is also critical to make an attempt to understand the policy context and factors that might be relevant to the decision-maker prior to the meeting.</p><p>​Luckily, one of your neighbors who works for the city and has met the Mayor provides some valuable information. You learn that the Mayor is a strong supporter of the city’s cultural tradition. He is also under pressure from the local business association, who have already invested heavily in the upcoming festival. A cancelation at this stage would result in significant economic losses for the city. </p><p>​He also tells you that in a recent statement, the Mayor also promised the community members to keep the city’s COVID-19 hospitalizations lower than in any other city in the state. In speeches, he has said he's a level-headed man open to ideas and doesn't appreciate when people come to his office using only technical jargon. </p><p>​These are valuable insights that may help you in formulating your communication strategy.</p>"
+        },
+        "1c": {
+            "type": "non-optimal",
+            "title": "Not a good choice.",
+            "message": "<p>​You miss out on learning valuable insights that could have helped you in formulating your communication strategy. Communicating science for policy is not only about your evidence—to be an effective communicator, you also need to understand the decision-maker you are interacting with and adapt your strategy to their context and needs.</p><p>​You send out a note before the meeting with scientific data and technical jargon on COVID-19-related evidence arguing that the event should be canceled. Your technical suggestions are not accessible to the Mayor and he is not able to interpret your evidence in light of the trade-offs he is facing. He does not see the value in a personal meeting and cancels.</p>"
+        },
+        "2a": {
+            "type": "optimal",
+            "title": "Excellent approach!",
+            "message": "<p>​You immediately strike a chord with the Mayor. He tells you how passionate he is about the city’s cultural tradition and shares his favorite childhood memory. He hopes to bring the festival spirit to the city while also taking necessary precautions to limit the spread of the COVID-19 virus. He also confides that holding this event is also economically important for the city's local business and his political position. For this reason, he is looking forward to your meeting to understand the latest scientific evidence on COVID-19 virus transmission to propose evidence-based precautions for the festival.</p>"
+        },
+        "2b": {
+            "type": "sub-optimal",
+            "title": "Good choice, but not the best.",
+            "message": "<p>The Mayor is happy to hear that you are aware of his COVID-19 goals but reiterates that the city’s cultural traditions is also important to him. He also emphasizes that the summer festival is vital for local businesses and his economic policy agenda. For this reason, he is looking forward to your meeting to understand the latest scientific evidence on COVID-19 virus transmission to propose evidence-based precautions for the festival.</p>"
+        },
+        "2c": {
+            "type": "non-optimal",
+            "title": "Not a good choice.",
+            "message": "<p>You miss out on the chance to building a rapport with the Mayor. After a while, he gets confused and disinterested in the scientific data. He cuts the meeting short to prepare for his next meeting and tells you to send your evidence to his policy advisor.</p>"
+        },
+        "3a": {
+            "type": "optimal",
+            "title": "Excellent approach!",
+            "message": "<p>The Mayor is excited to learn there is credible evidence that proper precautions can help reduce the risk of outbreaks from the upcoming event. This aligns with both his values and vision. He starts to view you as a trusted expert who can help him formulate evidence-based policy decisions.</p>"
+        },
+        "3b": {
+            "type": "sub-optimal",
+            "title": "Good choice, but not the best.",
+            "message": "<p>The Mayor is happy to learn there is evidence that proper precautions can help reduce the risk of outbreaks from the upcoming event. This aligns with both his values and vision.</p><p>​However, initially he is  a bit skeptical and inquires about the legitimacy and credibility of the data. Once you explain the research methods, their limitations, and who produced the evidence, he understands the evidence.</p>"
+        },
+        "3c": {
+            "type": "non-optimal",
+            "title": "Not a good choice.",
+            "message": "<p>You fail to address the Mayor's policy concerns and values. While the Mayor was expecting to discuss ways to continue with the event, you seem to be only advocating for canceling the event.​</p><p>He cuts the meeting short to prepare for his next meeting and tells you to send your evidence to his policy advisor.</p>"
+        },
+        "4a": {
+            "type": "optimal",
+            "title": "Excellent approach!",
+            "message": "<p>Your communication was simple and clear. The Mayor is glad to hear that evidence suggests proper precautionary measures significantly reduce the risk of outbreaks. He also appreciates your honesty about the uncertainty and your actionable overview of best practices. He feels reassured about making an informed decision and taking proactive precautionary measures.</p>"
+        },
+        "4b": {
+            "type": "sub-optimal",
+            "title": "Good choice, but not the best.",
+            "message": "<p>Your communication was simple and clear. The Mayor is glad to hear that evidence suggests proper precautionary measures significantly reduce the risk of outbreaks. However, he was also expecting more details on the risks and uncertainties. Nevertheless, he decides to consider your information or evidence on the best practices and take proactive precautionary measures.</p>"
+        },
+        "4c": {
+            "type": "non-optimal",
+            "title": "Not a good choice.",
+            "message": "<p>​You failed to clearly communicate the risks and uncertainties. The Mayor got confused because he was unfamiliar with the scientific terms and dislikes technical jargon. Your communication and choice of words did not come across as confident and reassuring. He also felt that your research does not have enough substance to support his policy position.</p><p>He cuts the meeting short to prepare for his next meeting and tells you to send your evidence to his policy advisor.</p>"
+        },
+        "5a": {
+            "type": "optimal",
+            "title": "Excellent approach!",
+            "message": "<p>​The Mayor appreciates your recommendations because they help him turn his vision of a summer festival with precautionary measures into action. He wants to go ahead with the event because of the cultural and economic impacts and was looking for evidence on which precautionary measures would allow him to host a spirited but safe summer festival. Your recommendations will help him finalize his policy.</p><p>Your choice to make a recommendation is based on an understanding of not only the decision-maker's evidence needs, but also your university's policies on policy engagement and lobbying.</p>"
+        },
+        "5b": {
+            "type": "sub-optimal",
+            "title": "Good choice, but not the best.",
+            "message": "<p>​The Mayor is happy with the multiple evidence-based options for precautionary measures that would allow him to go ahead with the event. He wants to go ahead with the event because of the cultural and economic importance but remains confused on which combination of precautionary measures is the best. He is under time pressure to make a decision soon and is frustrated that you will need to follow up with him later with the evidence underlying each of the options.</p><p>He asks for more specific recommendations from you from the options provided, which will help him make a policy decision.</p>"
+        },
+        "5c": {
+            "type": "non-optimal",
+            "title": "Not a good choice.",
+            "message": "<p>Your recommendations are not taken well by the Mayor as they are clearly against his policy position. He wants to go ahead with the event because of the cultural and economic importance and was looking for evidence that would allow him to host the event with precautionary measures to limit the spread of COVID-19.</p><p>He cuts the meeting short to prepare for his next meeting and tells you to send your evidence to his policy advisor.</p>"
+        },
+        "6a": {
+            "type": "optimal",
+            "title": "Excellent approach!",
+            "message": "<p>You not only summarized the evidence verbally but also anticipated the need for a brief written summary and brought it to the meeting. By exchanging business cards, you also opened a channel for future direct communication. </p><p>​The Mayor was impressed by your helpfulness and professionalism. He also promised to reach out to you for future advice.</p>"
+        },
+        "6b": {
+            "type": "sub-optimal",
+            "title": "Good choice, but not the best.",
+            "message": "<p>​You summarized the evidence verbally but could have also anticipated the need for a brief written summary and brought it to the meeting. However, this could also be an opportunity to follow up and continue the conversation via e-mail, helping you to build a long-term relationship. By exchanging your business cards, you opened a channel for future direct communication. </p><p>The Mayor said that unfortunately they need to make a decision quickly and did not have time to wait for a one-pager summarizing the key evidence.</p>"
+        },
+        "6c": {
+            "type": "non-optimal",
+            "title": "Not a good choice.",
+            "message": "<p>You summarized the evidence verbally, but should have also offered a brief written summary, either immediately or as a follow-up. Although you asked the Mayor to reach out to you if he has any questions, you did not leave your contact information with him and missed out on a chance to open a channel for future direct communication. </p><p>Although the Mayor was happy with the overall discussion, he felt a written summary of the discussion would have been helpful for him. Since he is a busy politician, he may not make the effort to reach out to you again without having your contact information easily accessible.</p>"
+        }
+    }
+}
